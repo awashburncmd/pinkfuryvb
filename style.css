@@ -15,7 +15,7 @@ button {
     font-size:1.2rem;
     color:rgb(0, 0, 0);
     padding:.5rem 1rem;
-    width:30%;
+    width:100%;
     height: 50%;
     font-size:1rem;
     cursor:pointer;
@@ -35,8 +35,15 @@ margin-left:4vw;
 align-items: center;
 padding-right:.8rem;
 margin-right: auto;
-
 }
+
+.button-link {
+display:inline-block;
+text-decoration:none;
+width:30%;
+height:100%;
+}
+
 .logo {
     width:4vw;
     height:auto;
