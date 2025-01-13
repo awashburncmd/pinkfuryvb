@@ -139,6 +139,7 @@ h1 {
     font-weight:bold;
     cursor:pointer;
     transition:background-color .3s ease;
+    
 }
 
 .quote {
@@ -181,12 +182,12 @@ margin-top:2rem;
     
 }
 .schedule-2 {
-    display:flex;
+    display:block;
     margin:0 auto;
     margin-top:2rem;
     width:30vh;
     height:auto;
-    justify-content: center;
+    
 }
 
 .quote blockquote {
@@ -220,7 +221,28 @@ margin-top:2rem;
 .footer {
     background-color:var(--top-nav-color);
     width:100%;
-    height:8vh;
+    height:10vh;
     position:absolute;
     bottom:0;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+.footer-right {
+    display:flex;
+    justify-content:right;
+    align-items:right;
+    gap:1rem;
+    height:100%;
+    width:100%;
+}
+
+.footer-left {
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    gap:1rem;
+    height:100%;
+    width:100%;
+    flex-direction:column;
 }
